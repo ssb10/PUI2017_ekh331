@@ -9,7 +9,7 @@
 #
 # This addition to the .bashrc meant that after rerunning .bashrc, simply typing 'piu2017' in the terminal resulted  in entering the PUI2017 directory. To confirm this, working directories were printed before and after entering 'pui2017' in the terminal, as shown in Figure 2 below.
 #
-![Alt_text](Hw1_2_pui2017terminal.png)
+![Alt text](Hw1_2_pui2017terminal.png)
 # Figure 2: Confirming successful setup of environment variable and alias
 #
 
