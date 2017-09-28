@@ -5,19 +5,21 @@ import urllib2
 import json
 
 
-def do_thing(mta_key, bus_line):
-    response = query_api(mta_key, bus_line)
-    vehicle_activities = response['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity']    
+def show_bus_locations(mta_key, bus_line):
+    vehicle_activities = get_vehicle_activities(mta_key, bus_line)
 
     print "Bus Line : %s" % (bus_line)
     print "Number of Active Buses : %s" % (len(vehicle_activities))
     for i, vehicle_activity in enumerate(vehicle_activities):
-        lat = vehicle_activity['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
-        lon = vehicle_activity['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
+        location = vehicle_activity['MonitoredVehicleJourney']['VehicleLocation']
+        lat, lon = location['Latitude'], location['Longitude']
         print "Bus %s is at latitude %s and longitude %s" % (i + 1, lat, lon)
 
 ###################################
 
+def get_vehicle_activities(mta_key, bus_line):
+    response = query_api(mta_key, bus_line)
+    return response['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity']
 
 def query_api(mta_key, bus_line):
     """ Returns a dictionary """
@@ -37,12 +39,12 @@ def query_api(mta_key, bus_line):
 #################################################
 def main():
     args = parser().parse_args()
-    do_thing(args.MTA_KEY, args.BUS_LINE)
+    show_bus_locations(args.mta_key, args.bus_line)
 
 def parser():
     p = argparse.ArgumentParser()
-    p.add_argument("MTA_KEY")
-    p.add_argument("BUS_LINE")
+    p.add_argument("mta_key")
+    p.add_argument("bus_line")
     return p   
 
 if __name__ == "__main__":
