@@ -9,7 +9,7 @@ or in the pull request to the original student's repository.
 
 ## Assignment 2
 
-### I worked together with Jon Kastelan and Andrew Nell on this part of the homework.
+### I worked together with Jon Kastelan and Andrew Nell on this part of the homework. We worked on our own for the most part, but discussed our findings together and debated each other for each study.
 
 | **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var | Control Var type  | Question to be Answered | _H0_ | alpha | Link to Paper **| 
 |:----------:|:----------|:------------|:-------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------| 
