@@ -24,4 +24,14 @@ text
 
 ## Assignment 4
 
-text
+A function was written for this assignment to perform the operations for questions one and two within this part of the homework. 
+The input required is simply the problem number, which is either 1 or 2, corresponding to:<br>
+        1: Test whether trip durations of bikers is different during day vs night
+        2: Test whether age of bikers is different for Manhattan vs Brooklyn
+     <p>
+    Each problem tests whether the distribution of feature_of_interest (duration or age) is 
+    different for type_1 vs type_2 (day vs night, or Manhattan vs Brooklyn)
+    
+    <p>
+    
+    In order to account for the geographical differences between Manhattan and Brooklyn for the second question in this part, a line was drawn between two coordinate points that served as a decision boundary above which rides would count as Manhattan-origin and below which rides would count as Brooklyn-origin.
