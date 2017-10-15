@@ -1,8 +1,11 @@
 # Homework 4
 
+Aside from group work required for assignment 2, this homework was completed individually. Partners for part 2 were Jon Kastelan and Andrew Nell. 
+
 ## Assignment 1
 
-text
+I reviewed the Homework 3 part 2 of a classmate. I consulted the flowchart used in the slides for PUI session 4 to choose a statistical test. The markdown file with the review can be found at https://github.com/ekh331/PUI2017_ekh331/blob/master/HW4_ekh331/CitibikeReview_ekh331.md 
+or in the pull request to the original student's repository.
 
 ## Assignment 2
 
