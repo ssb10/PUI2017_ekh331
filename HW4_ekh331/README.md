@@ -20,7 +20,7 @@ Logistic Regression	| 7, age, bmi, waist circ, history of antihypertensive drug 
   
   ## Assignment 3
   
-text
+For this assignment, the z-test and chi-square test were computed based on examples in professor Bianco's provided skeleton notebook. The results of the tests were compared to standard tables, where the null hypothesis could then be rejected or fail to be rejected.
 
 ## Assignment 4
 
