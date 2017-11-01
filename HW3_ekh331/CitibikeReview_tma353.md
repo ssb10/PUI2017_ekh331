@@ -8,3 +8,5 @@ This test can be a method for Citibike to target marketting to customers that ha
 durations that generate more revenue.
 
 A potential analysis on the original question on subscriber vs. customer trip duration could be locating the two types of riders and look for densities of location that perhaps can be related to usage of residents and tourists and see if duration fits the users location and explore duration from that perspective.
+
+# FBB good
