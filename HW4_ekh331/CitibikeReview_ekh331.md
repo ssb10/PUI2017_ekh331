@@ -53,4 +53,4 @@ Since we have these categorical data, we can ask if the data match an expected r
 
 This question, while interesting, has many similar applications by itself. If one goes through and writes the code to perform these tests, it would be very easy to also consider other personal factors regarding day and night ridership. For example, it could be suspected that women are also less likely to ride at night than men are. Controlling for other personal factors like sex would be an interesting addition to this project. In addition, it could be interesting to see where given populations are more or less likely to ride at night by incorporating geographic data.
 
-
+# FBB good. should be helpful to your classmate
