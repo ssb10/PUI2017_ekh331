@@ -20,6 +20,9 @@ Logistic Regression	| 7, age, bmi, waist circ, history of antihypertensive drug 
   
   # FBB why did you look for a paper not on PLOS one? I specifically indicated to look for papers on plos one. the statistical significance you state for the Log Reg 0.05 I cannnot find in the paper. Plos One is rigorous about these things and would likely not acceot a paper that does not explicitly state the significance ahead of time
   
+#   otherwise good
+
+
   ## Assignment 3
   
 For this assignment, the z-test and chi-square test were computed based on examples in professor Bianco's provided skeleton notebook. The results of the tests were compared to standard tables, where the null hypothesis could then be rejected or fail to be rejected.
