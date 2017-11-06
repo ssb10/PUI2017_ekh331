@@ -18,8 +18,7 @@ Chi-squared	| 1, Gender | Nominal | 1, Visual stress color choice| categorical |
 Logistic Regression	| 7, age, bmi, waist circ, history of antihypertensive drug treatment, high blood sugar, physical activity, fruit/healthy consumptions | continuous ordinal, ordinal | 1, diabetes incidence| ordinal | gender, year of cohort | categorical | 	Can a risk factor model evaluate risk for and predict diabetes incidence? | Variables don't have significant predictive power to evaluate risk for diabetes incidence| 0.05 |(http://care.diabetesjournals.org/content/26/3/725?26/3/725) |
   ||||||||| 
   
-  # FBB why did you look for a paper not on PLOS one? I specifically indicated to look for papers on plos one. then the paper you found outside plosone does not report a significance, which is probably something that would have not been accepted by the plosone editors.
-  # also your LogReg has 2 null hypothesis. which is the proper null that was tested with the setup described by your table?
+  # FBB why did you look for a paper not on PLOS one? I specifically indicated to look for papers on plos one. the statistical significance you state for the Log Reg 0.05 I cannnot find in the paper. Plos One is rigorous about these things and would likely not acceot a paper that does not explicitly state the significance ahead of time
   
   ## Assignment 3
   
