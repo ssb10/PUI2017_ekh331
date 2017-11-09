@@ -16,5 +16,7 @@ The link to the paper on Authorea itself is here: https://www.authorea.com/users
 
 ## Assignment 2
 
-This assignment is a SQL-based lab. The submission of this part of the assignment is Sunday, November 12, 2017. <br>
-The assignment will be uploaded before the deadline when completed, and this README will be updated then.
+This assignment is a SQL-based lab to perform SQL queries as learned in Professor Vo's guest lecture. It 
+queries a Citi Bike dataset and performs certain basic functions, such as sorting trips in descending trip time, and
+culminates with finding the station with the longest average trip duration on the weekend within 500 meters of 
+Times Square. This part of the assignment is due November 12, 2017, and may be updated through that time.
