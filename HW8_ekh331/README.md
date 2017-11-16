@@ -14,7 +14,7 @@ The data can be located here in CSV format: https://data.cityofchicago.org/Trans
 
 <p>
 
-![Alt text](ekh331_plot.png)
+![Alt text](HW8_1_ekh331.png)
 
 <p>
 
