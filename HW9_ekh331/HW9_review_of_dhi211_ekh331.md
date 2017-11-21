@@ -9,9 +9,6 @@ The plot: <p>
 
 <p>
 Review:<p>
-
-HONESTY: is the plot honestly reproducing the data 
-or is it deforming it, perhaps to emphasize a point?
   
 ## Clarity
 
