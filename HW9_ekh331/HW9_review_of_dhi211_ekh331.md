@@ -5,7 +5,7 @@
 The plot: <p>
   
   
-![Alt text](PlotImage1.png)
+![Alt text](PlotImage2.png)
 
 <p>
 Review:<p>
