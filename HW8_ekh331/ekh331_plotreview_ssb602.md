@@ -1,4 +1,6 @@
 
+![ekh311 plot](https://github.com/ssb10/PUI2017_ekh331/blob/master/HW8_ekh331/HW8_plot_ekh331.png)
+
 
 The plot gives a clear distinction between bus, train and total ridership due to good colour choice. Also, the grid helps in reading the plot easily. The axis labels, legend and title is perfect!
 
